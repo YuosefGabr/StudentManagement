@@ -8,9 +8,9 @@ import java.sql.DriverManager;
 
 public class MyConnection {
     
-    private static final String username = "root";
-    private static final String password = "2007";
-    private static final String dataConn = "jdbc:mysql://localhost:3306/student_management";
+    private static final String username = "";
+    private static final String password = "";
+    private static final String dataConn = "jdbc:mysql://localhost:";
     private static Connection con = null;
     
     public static Connection getConnection(){
